@@ -52,7 +52,7 @@ async def set_not_afk(event):
             await borg.send_message(  # pylint:disable=E0602
                 Config.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
                 "#AFKFALSE \nSet AFK mode to False\nReply to pic and use .afk reason"
-                + "🔥ι αм ϐαϲκ αℓινє\n**𝔑𝔬 𝔏𝔬𝔫𝔤𝔢𝔯 𝔞𝔣𝔨.**\n⏱️ `աαs αբk for:``"
+                + "🔥ι αм ϐαϲκ αℓινє\n**𝔑𝔬 𝔏𝔬𝔫𝔤𝔢𝔯 𝔞𝔣𝔨.**\n MADERCHOD KITNI CHALDI A GAYA⏱️ `աαs αբk for:``"
                 + total_afk_time
             )
         except Exception as e:  # pylint:disable=C0103,W0703
