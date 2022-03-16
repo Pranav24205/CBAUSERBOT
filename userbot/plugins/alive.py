@@ -18,10 +18,10 @@ async def reply_id(event):
     return reply_to_id
 
 
-DEFAULTUSER = ALIVE_NAME or "✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳"
+DEFAULTUSER = ALIVE_NAME or "꧁༺ƈɮǟ ʊֆɛʀɮօȶ༻꧂"
 LEGEND_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "ℓєgєи∂ Choice 𝖑𝖊ɠêɳ̃dẞø✞︎"
-CUSTOM_YOUR_GROUP =Config.YOUR_GROUP or "@Legend_Userbot"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGEND CHOICE CBA BOT"
+CUSTOM_YOUR_GROUP =Config.YOUR_GROUP or "@CBA_Userbot"
 
 Legend = bot.uid
 
@@ -72,10 +72,10 @@ async def amireallyalive(alive):
         LEGEND_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
         LEGEND_caption += f"        **♥ẞø† ẞ✞︎α†µѕ** \n"
         LEGEND_caption += f"•⚜️• **Øաղ̃ҽ̈ɾ**          : {mention}\n\n"
-        LEGEND_caption += f"•📍• **𝖑𝖊ɠêɳ̃dẞø†**   : {LEGENDversion}\n"
+        LEGEND_caption += f"•📍• **CBA VERSION**   : {LEGENDversion}\n"
         LEGEND_caption += f"•📍• **†ҽ̀lҽ́ƭhøղ̃**     : `{version.__version__}`\n"
         LEGEND_caption += f"•📍• **𝚄ρƭเɱε**         : `{uptime}`\n"
-        LEGEND_caption += f"•📍• **𝙶𝚛𝚘𝚞𝚙**           : [𝙶𝚛𝚘𝚞𝚙](t.me/Legend_Userbot)\n"
+        LEGEND_caption += f"•📍• **𝙶𝚛𝚘𝚞𝚙**           : [𝙶𝚛𝚘𝚞𝚙](t.me/CBA_Userbot)\n"
         LEGEND_caption += f"•📍• **𝙼𝚢 𝙶𝚛𝚘𝚞𝚙**  : {CUSTOM_YOUR_GROUP}\n"   
 
         await alive.client.send_file(
@@ -89,22 +89,22 @@ async def amireallyalive(alive):
             f"~~~~~~~~~~~~~~~~~~~~~~~ \n"
             f"         𝕭𝖔𝖙 𝕾𝖙𝖆𝖙𝖚𝖘\n"
             f"•⚡• 𝕿єℓєτнοи    : `{version.__version__}`\n"
-            f"🇮🇳 ℓєgєи∂ϐοτ  : `{LEGENDversion}`\n"
+            f"🇮🇳 𝘾𝘽𝘼 𝙐𝙎𝙀𝙍𝘽𝙊𝙏  : `{LEGENDversion}`\n"
             f"🇮🇳 υρτιмє        : `{uptime}`\n"
             f"🔱 ɱαรƭεɾ        : {mention}\n"
-            f"🔱 σωɳεɾ         : [ℓєgєи∂](t.me/Its_LegendBoy)\n"
+            f"🔱 σωɳεɾ         : [CBA](t.me/MR_BHAGWAN)\n"
         )
 
 
 msg = f"""
-**  ⚜️ Lêɠêɳ̃dẞø† ιѕ σиℓιиє ⚜️**
+**  💪 𝘊𝘉𝘈 𝘜𝘚𝘌𝘙𝘉𝘖𝘛 𝘐𝘚 𝘖𝘕𝘓𝘐𝘕𝘌 💪 **
 
 {Config.ALIVE_MSG}
 
 **    ♥️ ẞø✞︎ ẞ✞︎α✞︎µѕ ♥️**
 **•⚜️•Øաղ̃ҽ̈r     :** **{mention}**
 
-**•🌹•𝖑𝖊ɠêɳ̃dẞø✞︎ :** {LEGENDversion}
+**•🌹•𝘾𝘽𝘼 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 :** {LEGENDversion}
 **•🌹•✞︎ҽ̀lҽ́ƭhøղ  :** {version.__version__}
 **•🌹•Ãbûßê     :**  {abuse_m}
 **•🌹•ßudø      :**  {is_sudo}
