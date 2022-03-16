@@ -96,7 +96,10 @@ async def legend_is_on():
 
 # Join LegndBot Channel after deploying 🤐😅
     try:
-        await bot(JoinChannelRequest("@Its_LegendBot"))
+        await bot(JoinChannelRequest("...
+
+
+"))
     except BaseException:
         pass
 
