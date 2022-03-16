@@ -5,17 +5,16 @@ from colorama import Fore, Style, Back
 
 
 legend = """
-╔╗──╔═══╦═══╦═══╦═╗─╔╦═══╦═══╦═══╦╗──╔╗
-║║──║╔══╣╔═╗║╔══╣║╚╗║╠╗╔╗║╔═╗║╔═╗║╚╗╔╝║  
-║║──║╚══╣║─╚╣╚══╣╔╗╚╝║║║║║║─║║╚═╝╠╗╚╝╔╝  
-║║─╔╣╔══╣║╔═╣╔══╣║╚╗║║║║║║╚═╝║╔╗╔╝╚╗╔╝   
-║╚═╝║╚══╣╚╩═║╚══╣║─║║╠╝╚╝║╔═╗║║║╚╗─║║   
-╚═══╩═══╩═══╩═══╩╝─╚═╩═══╩╝─╚╩╝╚═╝─╚╝   
+
+╭━┳━━┳━━╮
+┃╭┫╭╮┃╭╮┃
+┃╰┫╭╮┃┣┫┃
+╰━┻━━┻╯╰╯   
 
 """
 baap_bolte = """
-#Legendary LEGENDBOT          
-Made With Love By Team LEGENDBOT
+#Legendary CBABOT          
+Made With Love By Team CBABOT
 """
                                                                                                             
 print("")
@@ -25,7 +24,7 @@ print(Style.BRIGHT + Fore.BLUE + logo)
 print(Style.RESET_ALL)
 print(Style.BRIGHT + Fore.CYAN + Back.BLUE + baap_bolte)
 print(Style.RESET_ALL)
-print("""Welcome To LEGENDBOT String Generator By @Its_LegendBoy""")
+print("""Welcome To LEGENDBOT String Generator By @MR_BHAGWAN""")
 print("""Kindly Enter Your Details To Continue ! """)
 
 API_KEY = input("API_KEY: ")
