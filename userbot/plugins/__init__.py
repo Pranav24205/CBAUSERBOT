@@ -13,7 +13,7 @@ LEGEND_logo1 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo2 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo4 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo3 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
-LEGENDversion = "𝚅2.𝙾"
+LEGENDversion = "𝚅3.𝙾"
 
 perf = "[ CBA USERBOT† ]"
 
@@ -52,7 +52,7 @@ if "@" in my_group:
     my_group = my_group.replace("@", "")
 
 chnl_link = "https://t.me/CBA_USERBOT"
-Legend_channel = f"[✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎]({chnl_link})"
+Legend_channel = f"[꧁༺ƈɮǟ ʊֆɛʀɮօȶ༻꧂]({chnl_link})"
 grp_link = "https://t.me/CBA_SUPPORT"
 Legend_grp = f"[CBA Group]({grp_link})"
 
