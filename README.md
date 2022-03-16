@@ -1,1 +1,1 @@
-Pluggable Plugin Made by @LEGEND-OS
+Pluggable Plugin Made by @MR_BHAGWAN
