@@ -13,9 +13,9 @@ LEGEND_logo1 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo2 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo4 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
 LEGEND_logo3 = "./userbot/resources/pics/-4965507108355287505_121.jpg"
-LEGENDversion = "𝚅3.𝙾"
+LEGENDversion = "𝚅2.𝙾"
 
-perf = "[ CBA USERBOT† ]"
+perf = "[ †hê Lêɠêɳ̃dẞø† ]"
 
 
 DEVLIST = [
@@ -44,17 +44,17 @@ else:
 
 START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
-my_channel = Config.YOUR_CHANNEL or "Its_LegendBot"
-my_group = Config.YOUR_GROUP or "Legend_Userbot"
+my_channel = Config.YOUR_CHANNEL or "@MR_BHAGWAN"
+my_group = Config.YOUR_GROUP or "cba_Userbot"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
-chnl_link = "https://t.me/CBA_USERBOT"
-Legend_channel = f"[꧁༺ƈɮǟ ʊֆɛʀɮօȶ༻꧂]({chnl_link})"
-grp_link = "https://t.me/CBA_SUPPORT"
-Legend_grp = f"[CBA Group]({grp_link})"
+chnl_link = "https://t.me/cba_userbot"
+Legend_channel = f"[CBA USERBOT]({chnl_link})"
+grp_link = "https://t.me/cba_Userbot"
+Legend_grp = f"[CBA  Group]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
   {mention} :  To mention the user
